@@ -1,0 +1,255 @@
+/*reset selector*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* the styles for the elements */
+
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 99%;
+	max-width:960px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 3px #931420;
+	background-color:#fffded;
+}
+
+header h2 {
+	font-size:170%;
+	color:#800000;
+}
+h3 {
+	font-size: 130&;
+	font-style: italic;
+}
+h1 {
+	font-size:150%;
+	padding-top:.5em;
+	padding-bottom:.25em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+article {
+	padding-top:.5em;
+	padding-bottom:.5em;
+	border-top: solid 2px #800000;
+	border-bottom: solid 2px #800000;
+}
+article img {   /*Dinosaur*/
+	float: right;
+	max-width: 40%;
+	min-width: 150px;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	margin-left: .25em;
+	border: solid 1px black;
+}
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom:.25em;
+}
+/*Nav Bar*/
+#nav_menu ul li a.current {  /*Does not work*/
+	color: yellow;
+}
+#nav_menu ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	position:relative;
+}
+#nav_menu ul li {
+	float:left;
+	width: 20%;
+}
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
+#nav_menu  ul li:hover > ul {
+	display:block;
+}
+#nav_menu ul ul {
+	display:none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+	position: relative;
+}
+#nav_menu ul ul li ul {
+	position: absolute;
+	left: 100%;
+	top: 0%;
+}
+#nav_menu > ul::after {
+	content:"";
+	clear:both;
+	display:block;
+}
+/*Section and Aside*/
+
+section {
+	width:65.625%;
+	float:right;
+	padding-left:2.5%;
+	padding-right:2.5%;
+	padding-bottom: 2.5%;
+}
+aside {
+	width:26.875;
+	float:right;
+	padding-left:2.5%;
+	padding-bottom:20px;
+}
+section h2, aside h2 {
+	font-size: 130%;
+	color:  #800000;
+	padding-top:.5em;
+	padding-bottom:.25;
+}
+aside h3 {
+	font-size: 105%;
+	padding-bottom:.25em;
+}
+aside img {
+	padding-bottom: 1em;
+}
+
+/*links*/
+
+a {
+	font-style: normal;
+}
+a:hover, a:focus{
+	font-style: italic;
+}
+
+/* the styles for the header */
+header {
+	background: linear-gradient(30deg, #f6bb73 0%,#f6bb73 30%,white 50%,#f6bb73 80%,#f6bb73 100%);
+	border-bottom: solid 3px #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+}
+header img {
+	float: left;
+	padding-left:3.75%;
+	padding-right:3.75%;
+}
+
+/* the styles for main */
+
+main {
+	clear: left;
+}
+main p {
+	padding-bottom:.5em;
+}
+main blockquote {
+	padding-right:2em;
+	padding-left:2em;
+	font-style:italic;
+}
+main ul {
+	padding-bottom:.25em;
+	padding-left:1.25em;
+}
+main li {
+	padding-bottom:.35em;
+}
+main h2 {
+	font-size: 170%;
+color: #800000;}
+
+/* the styles for the footer */
+
+footer {
+	background-color: #931420;
+	color: white;
+	clear: both;
+}
+footer p {
+	text-align: center;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+/*Misc*/
+
+span.shadow {
+	text-shadow: 1px 1px #800000;
+}
+
+@media only screen and (max-width: 959px) {
+
+	section h1 {
+		font-size:135%;
+	}
+	section h2, aside h2 {
+		font-size:120%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	header img {
+		float:none;	
+	}
+	article img {
+		max-width:30%;
+	}
+	header {
+		align-content:center;
+	}
+	section {
+		float:none;
+		width:95%;
+	}
+	aside {
+		float:none;
+		padding-right:2.5%;
+		width:95%;
+	}
+	#speakers {
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+	}
+	#nav_menu {
+	display:none;
+	}
+	.slicknav_menu {
+		display:block;
+		background-color:#800000 !important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	body {
+		font-size:90%;
+	}
+}
+
+#mobilemenu {
+	display:none;
+}
