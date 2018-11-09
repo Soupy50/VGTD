@@ -23,6 +23,18 @@ header img {
 	padding-left:30px;
 	padding-right:30px;
 }
+#nav_menu ul {
+list-style-type: none;
+padding:0;
+margin:0;}
+#nav_menu ul li {
+display:inline;}
+above { padding:1em;}
+#nav_menu ul li a { 
+display:block;
+width:160px;
+text-align:center;	}
+below { padding:1em;}
 header{ border-bottom: solid 3px #931420;
 padding-top:1.5em;
 padding-bottom:2em;
