@@ -1,0 +1,70 @@
+html {background-color: tan;
+} 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 99%;
+	max-width:960px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 3px black;
+	background-color:#fffded;
+}
+
+header h1 { text-align: center;
+			border:solid 4px tan;
+}
+header { Border:solid 1px tan;
+		 text-align:center;
+		 }
+
+header img { max-height:100px;
+			 max-width:100px;
+			 vertical-align:middle;
+			
+}
+main { border: solid 3px tan;
+	   float: center;
+}
+article { font-size: 15;
+}
+.menu {
+float:left;
+width:150px;
+height:500px;
+border-top: black 4 px solid;
+position:relative;
+left:-220px;
+}
+.menu ul {
+    list-style-type: none;
+display:block;
+list-style-type: none;
+    margin:auto;
+    padding: 10px;
+    width: 180px;
+    background-color: tan;
+}
+.menu a {
+display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+border: solid 2px black;
+}
+
+.boxes img { max-width: 200px;
+		max-height: 200px;
+		float: left;
+		word-wrap:break-word;
+}
+.boxes { column-count: 2;
+		 border: solid 4px black;
+		 Height: 450px;
+		 text-align: justify;
+		 margin: 2ems;
+		 padding-right:40px;
+		 padding-left:40px;
+		 }
