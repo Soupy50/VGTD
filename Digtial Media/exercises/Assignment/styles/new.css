@@ -12,24 +12,47 @@ body {
 	border: solid 3px black;
 	background-color:#fffded;
 }
-
-header h1 { text-align: center;
-			border:solid 4px tan;
-}
-header { Border:solid 1px tan;
+header {
 		 text-align:center;
-		 }
+		 padding:0;
+		 border-bottom:solid 4px black;}
 
 header img { max-height:100px;
 			 max-width:100px;
 			 vertical-align:middle;
 			
 }
-main { border: solid 3px tan;
-	   float: center;
+main {
+	   float: left;
+	   text-align: center;
+	vertical-align: top;
+	padding-bottom:0;
+	padding-top:0;
+	margin-top:-400px;
+	height: 100px;
+	
 }
-article { font-size: 15;
+main p { padding: 0 0 0 0;
+	vertical-align:middle;
+	font-size: 22;
+	}
+h2 { text-align: left;
+	margin-left: 50px;
 }
+
+article { font-size: 13;
+text-wrap:right;
+margin-top:-20px;
+}
+article img {
+			margin-left: 0px;
+			 padding-right: 1em;
+			 padding-top:10px;
+			 height:150px;
+			 width:200px;
+}
+
+
 .menu {
 float:left;
 width:150px;
@@ -63,8 +86,33 @@ border: solid 2px black;
 .boxes { column-count: 2;
 		 border: solid 4px black;
 		 Height: 450px;
+		 width: 515px;
 		 text-align: justify;
-		 margin: 2ems;
-		 padding-right:40px;
+		 padding-right:400px;
 		 padding-left:40px;
-		 }
+		 margin-right:400px;
+		  }
+section { padding: 0 0 0 0;
+		margin-left:175px; 
+}
+table {
+border: 1px solid black;
+border-collapse: collapse;
+background-color:white;
+margin-left:-300px;
+}
+th, td {
+border: 1px solid black;
+padding: .2em .7em;
+text-align: right;
+}
+th.left, ttd.left { 
+text-align: left;
+}
+thead {
+background-color:tan;
+}
+table.bluetable tr :nth-child(even) {
+background-color:#D3D3D3; 
+} 
+
