@@ -1,0 +1,127 @@
+html {background-color:#202020;
+} 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 99%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#202020;
+}
+.blah {
+	position:absolute;
+	margin-top:1em;
+	left:50px;
+}
+.blah h3{
+	color:white;
+	float:right;
+	position:absolute;
+	left:50px;
+	top:55px;
+	font-size: 14;
+}
+.do { height: 400px;
+		width: 400px;
+		position: absolute;
+		margin-top: 20%;
+		margin-left:5%;
+		}
+
+Header img { height: 50px;
+			 width: 50px;
+			 float:left;
+			 margin-right:60%;
+}
+Header h1 { 
+			position:absolute;
+			right:200px;
+			color:white;
+			float:right;
+}
+h2 {
+	position: absolute;
+	color: white;
+}
+p { color: white;
+	text-align:left;
+	margin-left:40%;
+	margin-right:10%;
+	float:right;
+	}
+body p {
+	text-align:left;
+
+}
+.bud { color: white;
+text-align: center;
+}
+section {color:white;
+text-align:left;
+}
+.res {text-align: left;
+
+}
+h1{ color: white;
+}
+.dog { padding-top: 12%;
+		padding-left:5%
+}
+iframe {margin-top: 6%;
+		margin-left:15%;
+}
+.fort {
+	text-align:center;
+}
+.about {
+	height:5%;
+	width:40%;
+	margin-left:50%;
+	margin-top:5%;
+	float:right;
+	padding:1em;
+}
+.menu {
+    float:left;
+    width:100%;
+    height:50px;
+    border-top:red 4px solid;
+	    background-color: red;
+	color: white;
+	margin-top:130px;
+	border-radius:10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display:block;
+    list-style-type: none;
+    margin:auto;
+    padding: 10px;
+    width: auto;
+    background-color: red;
+    border-radius: 35px 35px 35px 35px;
+    height:30px;
+}
+
+.menu ul li {
+	padding-left:10%;
+    float:left;
+
+}
+
+.menu a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: solid 2px red;
+	align-content:middle;
+    border-radius: 35px 35px 35px 35px;
+    margin-left:3px;
+}
+footer {
+	color:white;
+}
