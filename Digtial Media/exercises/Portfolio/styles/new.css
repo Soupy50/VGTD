@@ -23,11 +23,11 @@ body {
 	top:55px;
 	font-size: 14;
 }
-.do { height: 400px;
-		width: 400px;
+.do { height: 300px;
+		width: 300px;
 		position: absolute;
-		margin-top: 20%;
-		margin-left:5%;
+		margin-top: 15%;
+		margin-left:-10%;
 		}
 
 Header img { height: 50px;
@@ -73,7 +73,11 @@ iframe {margin-top: 6%;
 		margin-left:15%;
 }
 .fort {
-	text-align:center;
+	text-align:left;
+	color: white;
+	width: 1000px;
+	 margin-left: 15%;
+	 margin-top:3%;
 }
 .about {
 	height:5%;
