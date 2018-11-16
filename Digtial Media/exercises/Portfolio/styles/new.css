@@ -29,7 +29,43 @@ body {
 		margin-top: 15%;
 		margin-left:-10%;
 		}
+.ad {
+	position: absolute;
+	margin-left: 40%;	
+	margin-top: 20%;
+}
+.scuf {
+	color:white;
+	font-size:24;
+	margin-left:-135%;
+	margin-top: -80%;
+}
 
+.news {
+	color:white;
+	margin-right:30%;
+	margin-top:80%;
+	width: 350px;
+}
+
+.wbas {
+	margin-top:50%;
+	margin-right:30%;
+
+}
+.rd {
+	color: white;
+	font-size:24;
+	margin-left: -130%;
+
+	margin-top: 80%;
+}
+footer p {
+	color:white;
+	margin-left:-50%;
+	margin-top:5%;
+	width: 350px;
+} 
 Header img { height: 50px;
 			 width: 50px;
 			 float:left;
